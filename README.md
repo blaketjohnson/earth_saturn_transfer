@@ -3,22 +3,22 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Docs](https://img.shields.io/badge/docs-pdf-orange)
+![Documentation](https://img.shields.io/badge/docs-pdf-orange)
 ![Figures](https://img.shields.io/badge/plots-available-blueviolet)
 
-Preliminary mission design studies for **Earth → Saturn → Titan** trajectories, using
-patched-conic methods and classical mission design tools.  
+Mission design and trajectory analysis for **Earth → Saturn → Titan** transfers using patched-conic methods and classical astrodynamics tools.  
+This project demonstrates how orbital mechanics and mission planning can be rapidly prototyped in Python, with visual outputs for design review and decision-making.
 
-This repository demonstrates how to build quick-look interplanetary transfer analyses
-with Python, including:
+---
 
-- Hohmann transfers
-- Porkchop plots of launch Δv and arrival v∞
-- Titan flyby geometry and turning-angle analysis
-- Patched-conic approximations
+## ✨ Highlights for Recruiters
+- Implements **Hohmann transfer** analysis and **Lambert solvers** for interplanetary trajectory planning.
+- Generates **porkchop plots** of Δv vs. launch date for mission optimization.
+- Models **Titan flyby geometry** with post-flyby velocity mapping.
+- Demonstrates **patched-conic approximations** with extendable modular codebase.
+- Repository structured for **reusability and scalability** in larger mission design projects.
 
-The methods here were used to support the work described in:  
-👉 [Mission Design Paper](docs/Proposal%20for%20the%20Geological%20and%20Atmospheric%20Data%20Expansion%20of%20Titan.pdf)
+This repository showcases skills in **orbital mechanics, trajectory simulation, numerical methods, and technical communication**—all of which are directly applicable to aerospace engineering roles.
 
 ---
 
@@ -74,16 +74,20 @@ titan_proposal/
 
 ---
 
-## ✨ Features
-- Circular-coplanar ephemerides (quick-look design).
-- Lambert solver with universal variables.
-- Porkchop plots of Δv from 300 km LEO and arrival v∞ at Saturn.
-- Titan flyby geometry sanity checks.
+## 🔮 Future Development
+- Integrate **real planetary ephemerides** (SPICE/Horizons).
+- Implement **multi-rev Lambert solvers**.
+- Add **Saturn/Titan capture Δv** analysis.
+- Expand to **end-to-end mission scenarios** with multi-body dynamics.
 
 ---
 
-## 🔮 Future Work
-- Swap circular orbits for real planetary ephemerides (SPICE/Horizons).
-- Multi-rev Lambert solver.
-- Capture Δv at Saturn/Titan.
-- Mission scenario design case studies.
+## 📑 Related Work
+This repository supported analyses presented in:  
+👉 [Mission Design Paper (PDF)](docs/Proposal%20for%20the%20Geological%20and%20Atmospheric%20Data%20Expansion%20of%20Titan.pdf)
+
+---
+
+## 📌 About the Author
+This project is part of a portfolio in **orbital mechanics, mission design, and aerospace systems engineering**.  
+More projects available at: [GitHub Portfolio](https://github.com/blaketjohnson)
