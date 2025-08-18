@@ -18,7 +18,7 @@ with Python, including:
 - Patched-conic approximations
 
 The methods here were used to support the work described in:  
-👉 [Your Mission Design Paper (replace with link)](https://arxiv.org/abs/PLACEHOLDER)
+👉 [Mission Design Paper](docs/Proposal%20for%20the%20Geological%20and%20Atmospheric%20Data%20Expansion%20of%20Titan.pdf)
 
 ---
 
