@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS / Tools
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore temporary or batch outputs
+figures/tmp_*.png
+figures/test_*.png
+
+
+# macOS & zip artifacts
+.DS_Store
+__MACOSX/
+*.zip
+
+

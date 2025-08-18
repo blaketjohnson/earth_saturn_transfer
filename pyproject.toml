@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "titan-project"
+version = "0.1.0"
+description = "Quick-look astrodynamics for a Titan mission portfolio (Δv, TOF, v∞, plots)"
+readme = "README.md"
+requires-python = ">=3.9"
+
+# If you keep modules directly under src/ (no package folder),
+# you'll typically run with: PYTHONPATH=src python examples/...
+# If you later move files into a package folder (e.g., src/titan),
+# the find settings below will pick it up automatically.
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
