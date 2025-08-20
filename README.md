@@ -88,6 +88,6 @@ This repository supported analyses presented in:
 
 ---
 
-## 📌 About the Author
+## About the Author
 This project is part of a portfolio in **orbital mechanics, mission design, and aerospace systems engineering**.  
 More projects available at: [GitHub Portfolio](https://github.com/blaketjohnson)
