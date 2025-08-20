@@ -1,4 +1,4 @@
-# Titan Mission Design 🚀🪐
+# Titan Mission Design
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -11,7 +11,7 @@ This project demonstrates how orbital mechanics and mission planning can be rapi
 
 ---
 
-## ✨ Highlights for Recruiters
+## Highlights for Recruiters
 - Implements **Hohmann transfer** analysis and **Lambert solvers** for interplanetary trajectory planning.
 - Generates **porkchop plots** of Δv vs. launch date for mission optimization.
 - Models **Titan flyby geometry** with post-flyby velocity mapping.
@@ -22,7 +22,7 @@ This repository showcases skills in **orbital mechanics, trajectory simulation, 
 
 ---
 
-## 📊 Example Results
+## Example Results
 
 ### Earth → Saturn Hohmann Transfer
 ![Hohmann Transfer](figures/hohmann_earth_saturn.png)
@@ -38,7 +38,7 @@ This repository showcases skills in **orbital mechanics, trajectory simulation, 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 titan_proposal/
@@ -51,7 +51,7 @@ titan_proposal/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 1. Clone this repo:
    ```bash
@@ -74,7 +74,7 @@ titan_proposal/
 
 ---
 
-## 🔮 Future Development
+## Future Development
 - Integrate **real planetary ephemerides** (SPICE/Horizons).
 - Implement **multi-rev Lambert solvers**.
 - Add **Saturn/Titan capture Δv** analysis.
@@ -82,9 +82,9 @@ titan_proposal/
 
 ---
 
-## 📑 Related Work
+## Related Work
 This repository supported analyses presented in:  
-👉 [Mission Design Paper (PDF)](docs/Proposal%20for%20the%20Geological%20and%20Atmospheric%20Data%20Expansion%20of%20Titan.pdf)
+[Mission Design Paper (PDF)](docs/Proposal%20for%20the%20Geological%20and%20Atmospheric%20Data%20Expansion%20of%20Titan.pdf)
 
 ---
 
